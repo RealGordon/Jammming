@@ -106,7 +106,7 @@ window.history.pushState('Access Token', null, 'index.html');
 }
 let client_id="b6e05da2381741dca9663c1f41718e8b",
 scope="playlist-modify-public",
-redirect_uri="http://localhost:5000/static/index.html?",
+redirect_uri="https://realgordon.github.io/Jammming/",
  state = "jhfufghjfhufhvfb"+Math.floor(Math.random()*5e3).toString(16);
 
 sessionStorage.setItem("stateKey", state);
